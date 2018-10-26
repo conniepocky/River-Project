@@ -1,0 +1,22 @@
+<html>
+
+<head>
+    <script src="https://aframe.io/releases/0.8.0/aframe.min.js"></script>
+</head>
+
+<body>
+    <a-scene>
+        <a-assets>
+            <img id="water" src="https://res.cloudinary.com/dexhx07lb/image/upload/v1540562956/800px_COLOURBOX4686087.jpg">
+        </a-assets>
+        <a-image src="#water" position="0 0 -4" rotation="-90 0 0" width="50" height="50"></a-image>
+        <a-sky color="#ECECEC"></a-sky>
+    </a-scene>
+</body>
+
+</html>
+
+<script>
+    var riversound = new Audio("river.mp3")
+    riversound.play()
+</script>
